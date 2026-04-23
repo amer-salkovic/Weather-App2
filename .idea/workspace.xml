@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f4be2c-9e48-4f47-9fb2-ee9ca01e9e1b" name="Changes" comment="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name">
+      <change afterPath="$PROJECT_DIR$/weather-app/public/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/public/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/public/rain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather-app/public/sun.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/app/weather/[city]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app/weather/[city]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/components/SerachCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/components/SerachCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather-app/components/WeatherCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/components/WeatherCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +64,7 @@
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/amersalkovic/WebstormProjects/weatherapp/weather-app/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,7 +83,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather-app/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather-app/public" />
       <recent name="$PROJECT_DIR$/weather-app" />
     </key>
   </component>
@@ -92,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776444784634</updated>
-      <workItem from="1776444785645" duration="8334000" />
+      <workItem from="1776444785645" duration="11427000" />
     </task>
     <task id="LOCAL-00001" summary="feat: integrate OpenWeather API and display real weather data&#10;&#10;- Add .env.local file for secure API key storage&#10;- Create types/weather.ts with TypeScript interface for API response&#10;- Create getWeatherData() function to fetch weather data&#10;- Update WeatherCard component to accept dynamic data (props)&#10;- Display real weather data for Novi Pazar on the home page">
       <option name="closed" value="true" />
@@ -126,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776904048576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name">
+      <option name="closed" value="true" />
+      <created>1776904493183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776904493183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
