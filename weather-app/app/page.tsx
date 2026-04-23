@@ -2,6 +2,7 @@
 
 import WeatherCard from "@/components/WeatherCard";
 import {getWeatherApi} from "@/lib/weatherApi";
+import WeatherSearch from "@/components/SerachCard";
 
 export default async function  Home() {
   const data = await getWeatherApi("Novi Pazar")
@@ -19,6 +20,9 @@ export default async function  Home() {
 
           </p>
         </div>
+
+
+          <WeatherSearch />
 
 
         <WeatherCard
