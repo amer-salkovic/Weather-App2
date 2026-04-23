@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62f4be2c-9e48-4f47-9fb2-ee9ca01e9e1b" name="Changes" comment="feat: integrate OpenWeather API and display real weather data&#10;&#10;- Add .env.local file for secure API key storage&#10;- Create types/weather.ts with TypeScript interface for API response&#10;- Create getWeatherData() function to fetch weather data&#10;- Update WeatherCard component to accept dynamic data (props)&#10;- Display real weather data for Novi Pazar on the home page">
-      <change afterPath="$PROJECT_DIR$/weather-app/app/weather/[city]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather-app/components/SerachCard.tsx" afterDir="false" />
+    <list default="true" id="62f4be2c-9e48-4f47-9fb2-ee9ca01e9e1b" name="Changes" comment="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app/env.local" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/amersalkovic/WebstormProjects/weatherapp/weather-app/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -95,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776444784634</updated>
-      <workItem from="1776444785645" duration="7868000" />
+      <workItem from="1776444785645" duration="8334000" />
     </task>
     <task id="LOCAL-00001" summary="feat: integrate OpenWeather API and display real weather data&#10;&#10;- Add .env.local file for secure API key storage&#10;- Create types/weather.ts with TypeScript interface for API response&#10;- Create getWeatherData() function to fetch weather data&#10;- Update WeatherCard component to accept dynamic data (props)&#10;- Display real weather data for Novi Pazar on the home page">
       <option name="closed" value="true" />
@@ -113,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776793227792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name">
+      <option name="closed" value="true" />
+      <created>1776904011032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776904011032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name">
+      <option name="closed" value="true" />
+      <created>1776904048576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776904048576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: integrate OpenWeather API and display real weather data&#10;&#10;- Add .env.local file for secure API key storage&#10;- Create types/weather.ts with TypeScript interface for API response&#10;- Create getWeatherData() function to fetch weather data&#10;- Update WeatherCard component to accept dynamic data (props)&#10;- Display real weather data for Novi Pazar on the home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: integrate OpenWeather API and display real weather data&#10;&#10;- Add .env.local file for secure API key storage&#10;- Create types/weather.ts with TypeScript interface for API response&#10;- Create getWeatherData() function to fetch weather data&#10;- Update WeatherCard component to accept dynamic data (props)&#10;- Display real weather data for Novi Pazar on the home page" />
+    <MESSAGE value="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: resolve 404 error and handle dynamic route params correctly&#10;&#10;- Await 'params' in CityWeather component to support Next.js 15+ async params&#10;- Update SearchBar input text color to black for better visibility&#10;- Successfully render dynamic weather data based on URL city name" />
   </component>
 </project>
